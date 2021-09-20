@@ -3,7 +3,7 @@ import { theme } from "./theme.css";
 
 const properties = defineProperties({
   properties: {
-    color: theme.color,
+    backgroundColor: theme.color,
   },
 });
 

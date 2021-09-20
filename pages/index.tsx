@@ -1,8 +1,10 @@
 import { NextPage } from "next";
-import * as styles from "../styles/Home.css";
+import { buttonRecipe } from "../styles/Home.css";
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>Hello world</div>;
+  return (
+    <button className={buttonRecipe({ variant: "primary" })}>Hello</button>
+  );
 };
 
 export default Home;
