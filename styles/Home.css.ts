@@ -1,6 +1,5 @@
-import { style } from "@vanilla-extract/css";
+import { sprinkles } from "./sprinkles.css";
 
-export const container = style({
-  fontSize: "40px",
-  color: "red",
+export const container = sprinkles({
+  color: "primary",
 });
